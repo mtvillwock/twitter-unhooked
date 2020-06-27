@@ -25,6 +25,11 @@
 
 /** NEW TWITTER **/
 
+/** FULL SIDEBAR **/
+*[data-testid="sidebarColumn"] {
+  display: none !important;
+}
+
 /** SIDEBAR TRENDS **/
 *[aria-label="Timeline: Trending now"] {
   display: none !important;
